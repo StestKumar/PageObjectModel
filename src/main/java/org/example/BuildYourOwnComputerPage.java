@@ -12,6 +12,8 @@ public class BuildYourOwnComputerPage extends Utility {
         findByElement(By.id("product_attribute_3_7"));
         //click of the OS
         findByElement(By.id("product_attribute_4_9"));
+        //click on the software option preselected
+        findByElement(By.id("product_attribute_5_10"));
         //click on the software
         findByElement(By.id("product_attribute_5_11"));
         //click on add to cart
