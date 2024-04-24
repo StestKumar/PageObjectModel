@@ -12,7 +12,7 @@ public class BaseTest extends Utility {
         browsermanager.openBrowser();
     }
 
-    // @AfterMethod
+    @AfterMethod
     public void tearDown() {
         browsermanager.closeBrowser();
     }
